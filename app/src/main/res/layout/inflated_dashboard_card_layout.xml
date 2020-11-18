@@ -46,14 +46,14 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:id="@+id/availableBalanceText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="$0.00"
-                    android:textSize="25sp"
-                    android:singleLine="true"
-                    android:textColor="#3AC28F"
                     android:fontFamily="@font/open_sans_bold"
-                    android:id="@+id/availableBalanceText"/>
+                    android:singleLine="true"
+                    android:text="$0.00"
+                    android:textColor="#3AC28F"
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -85,14 +85,14 @@
                     android:id="@+id/spentText"/>
 
                 <TextView
+                    android:id="@+id/spentBalanceText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="$0.00"
-                    android:textSize="20sp"
-                    android:singleLine="true"
-                    android:textColor="#CE7976"
                     android:fontFamily="@font/open_sans_bold"
-                    android:id="@+id/spentBalanceText"/>
+                    android:singleLine="true"
+                    android:text="$0.00"
+                    android:textColor="#CE7976"
+                    android:textSize="14sp" />
             </LinearLayout>
 
             <TextView

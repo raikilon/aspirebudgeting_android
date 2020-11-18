@@ -293,7 +293,7 @@ public class SheetsManager {
 
         valuesToInsert.add(category);
         valuesToInsert.add(account);
-        valuesToInsert.add(String.format("%s - Added from Aspire Android app", memo));
+        valuesToInsert.add(String.format("%s", memo));
 
         switch (sessionConfig.getSheetVersion()) {
             case twoEight:
